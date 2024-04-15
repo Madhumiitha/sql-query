@@ -241,7 +241,7 @@ select account_id from accounts where customer_id=1)
 SELECT account_type, 
 (SELECT SUM(balance) FROM Accounts WHERE account_type =A.account_type) AS total_balance
 FROM Accounts A
-GROUP BY account_type;
+GROUP BYÂ account_type;
 
 
 
